@@ -1,0 +1,9 @@
+ let  a = 10;
+ console.log("a is :",a);
+ a++  //  a = a + 1
+ console.log("increase the valuse by one :",a);
+
+ let  b = 10;
+ console.log("b is :",b);
+ b--  //  b = b - 1
+ console.log("decrese the valuse by one :",b);

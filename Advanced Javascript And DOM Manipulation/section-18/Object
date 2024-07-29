@@ -1,0 +1,13 @@
+
+// Initialize the object
+function HouseKeeper(yearOfExperience, name, cleaningRepertoire){
+    this.yearOfExperience = yearOfExperience;
+    this.name = name;
+    this.cleaningRepertoire = cleaningRepertoire;
+    this.clean = function(){
+        alert("Cleaning is progress...");
+    }
+}
+var HouseInfo = new HouseKeeper(3, "Asha", ["bedroom", "bathroom"])
+console.log(HouseInfo);
+HouseInfo.clean();
